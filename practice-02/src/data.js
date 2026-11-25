@@ -9,5 +9,44 @@ export const demoTasks = [
 
 // TODO: указать свой вариант и подготовить шесть задач по разделу 7 методички.
 // Пустой массив — заготовка, а не выполненный индивидуальный вариант.
-export const variantNumber = null;
-export const variantTasks = [];
+
+export const variantNumber = 7;
+
+export const variantTasks = [
+    {
+        id: 11,
+        title: "Определить требования к релизу",
+        completed: true,
+        priority: "high"
+    },
+    {
+        id: 23,
+        title: "Подготовить исходный код",
+        completed: true,
+        priority: "high"
+    },
+    {
+        id: 37,
+        title: "Проверить функциональность",
+        completed: true,
+        priority: "medium"
+    },
+    {
+        id: 41,
+        title: "Исправить найденные ошибки",
+        completed: true,
+        priority: "high"
+    },
+    {
+        id: 58,
+        title: "Подготовить документацию",
+        completed: true,
+        priority: "low"
+    },
+    {
+        id: 64,
+        title: "Опубликовать учебный релиз",
+        completed: true,
+        priority: "medium"
+    }
+];
